@@ -3,6 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoLight } from "react-icons/pi";
 import { IoLogoInstagram } from "react-icons/io";
 import { SlSocialYoutube } from "react-icons/sl";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 
 function Footer() {
@@ -32,6 +33,10 @@ function Footer() {
                     <a href="https://www.youtube.com/" target="_blank">
                       <SlSocialYoutube className="text-2xl cursor-pointer hover:text-[#64FFDA] hover:scale-125 duration-300"/>
                     </a>
+                  </li>
+                  <li><a href="https://leetcode.com/problemset/" target="_blank">
+                  <TbBrandLeetcode className="text-2xl cursor-pointer hover:text-[#64FFDA] hover:scale-125 duration-300"/>
+                  </a>
                   </li>
                 </ul>
             <div className="flex flex-col items-center">

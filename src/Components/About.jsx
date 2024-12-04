@@ -5,6 +5,8 @@ import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoLight } from "react-icons/pi";
 import { IoLogoInstagram } from "react-icons/io";
 import { SlSocialYoutube } from "react-icons/sl";
+import { TbBrandLeetcode } from "react-icons/tb";
+
 //import { SiMongodb } from "react-icons/si";
 //import { SiExpress } from "react-icons/si";
 //import { FaReact } from "react-icons/fa";
@@ -15,7 +17,7 @@ function About() {
     <>
       <div
         name="About"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        className="max-w-screen-2xl container mx-auto px-2 md:px-20 my-16"
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
@@ -48,7 +50,7 @@ function About() {
               <button className="relative left-8 px-8 py-3 hover:bottom-1 text-[#00fff1] hire" type="submit">Hire Me</button></a>
             </div>
             {/* social media icons-flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0*/}
-            <div className="hidden md:flex text-[#8892B0] items-center fixed bottom-52 left-[-40px] rotate-90">
+            <div className="hidden md:flex text-[#8892B0] items-center fixed bottom-52 left-[-65px] rotate-90">
               <div className="space-y-2">
                 {/*<h1 className="font-bold text-center ">Available on</h1>*/}
                 <ul className="flex space-x-5">
@@ -70,6 +72,11 @@ function About() {
                   <li>
                     <a href="https://www.youtube.com/" target="_blank">
                       <SlSocialYoutube className="text-2xl cursor-pointer -rotate-90 hover:text-[#64FFDA] hover:scale-125 duration-300"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://leetcode.com/problemset/" target="_blank">
+                      <TbBrandLeetcode className="text-2xl cursor-pointer -rotate-90 hover:text-[#64FFDA] hover:scale-125 duration-300"/>
                     </a>
                   </li>
                 </ul>
