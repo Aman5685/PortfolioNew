@@ -17,7 +17,10 @@ import Github from "../../public/Github.png";
 import Vscode from "../../public/VS Code.png";
 import sublime from "../../public/sublime.png";
 import netlify from "../../public/netlify.png";
-
+import nodejs from "../../public/Node JS.png";
+import expressjs from "../../public/Express JS.png";
+import mongodb from "../../public/MongoDB.png";
+import mysql from "../../public/MySQL.png";
 function Skills() {
   return (
     <div
@@ -98,7 +101,36 @@ function Skills() {
               </div>
               </div>
             </div>
-            
+            {/*Backend */}
+            <div className="md:w-[460px] md:h-[460px]  border-[2px] border-[#64FFDA] rounded-lg  p-1 cursor-pointer shadow-[#64FFDA] shadow-lg  duration-300">
+              <h1 className="text-white text-3xl text-center mt-4 font-thin hover:text-[#64FFDA] hover:scale-110 duration-300">Backend</h1>
+              <div className="flex mt-5 gap-3 justify-center flex-wrap">
+              <div className="flex gap-2 border border-text-[#8892B0] rounded-2xl items-center py-2 px-3 w-[150px] h-[54px]">
+               <img className="w-[48px]" src={nodejs} alt="" /> 
+               <div className="text-[#8892B0]">
+                Node JS
+               </div>
+              </div>
+              <div className="flex gap-2 border border-text-[#8892B0] rounded-2xl  items-center py-2 px-3 w-[150px] h-[54px]">
+               <img className="w-[48px]" src={expressjs} alt="" /> 
+               <div className="text-[#8892B0]">
+               Express JS
+               </div>
+              </div>
+              <div className="flex gap-2 border border-text-[#8892B0] rounded-2xl items-center py-2 px-3 w-[150px] h-[54px]">
+               <img className="w-[48px]" src={mongodb} alt="" /> 
+               <div className="text-[#8892B0]">
+               Mongo DB
+               </div>
+              </div>
+              <div className="flex gap-2 border border-text-[#8892B0] rounded-2xl items-center py-2 px-3 w-[150px] h-[54px]">
+               <img className="w-[48px]" src={mysql} alt="" /> 
+               <div className="text-[#8892B0] font-medium  ">
+               MySQL
+               </div>
+              </div>
+              </div>
+            </div>
             {/*Language*/}
             <div className="md:w-[450px] md:h-[460px] border-[2px] border-[#64FFDA] rounded-lg  p-1 cursor-pointer shadow-[#64FFDA] shadow-lg  duration-300">
             <h1 className="text-white text-3xl text-center mt-4 font-thin hover:text-[#64FFDA] hover:scale-110 duration-300">Languages</h1>

@@ -43,7 +43,7 @@ function About() {
             </p>
             <br />
             <div className="">
-              <a href="https://drive.google.com/file/d/1IxPIHK1NOZlIGwZMqDMpK93BVdvopf6b/view?usp=sharing"target="_blank">
+              <a href="https://drive.google.com/file/d/1-t6h-ZqqAD3j8y2bNwJzdClHDKwFnu1O/view?usp=sharing"target="_blank">
               <button className="bg-[#64FFDA] px-4 py-3 rounded-md relative text-black hover:bottom-1" type="submit">Check Resume    
               </button></a>
               <a href="mailto:amanyadav5685@gmail.com" target="_blank">
